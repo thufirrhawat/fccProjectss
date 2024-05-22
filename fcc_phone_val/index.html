@@ -8,23 +8,28 @@
   </head>
   <body>
     <header>
-        <h1>US Phone Validator</h1>
-      </header>
+      <h1>US Phone Validator</h1>
+    </header>
     <main>
-        <div class="phone">
-          <div class="phone-screen">
-            <input
-              type="text"
-              class="user-input"
-              placeholder="Enter phone number"
-            />
-            <div class="records">Records goes here</div>
-            <div class="phone-bottom">
-              <button class="button">Check</button>
-              <button class="button">Clear</button>
-            </div>
+      <div class="phone">
+        <div class="phone-screen">
+          <input
+            id="user-input"
+            type="text"
+            class="user-input"
+            placeholder="Enter phone number"
+          />
+          <div id="results-div" class="records">
+            <ul>
+              <li>Records goes here</li>
+            </ul>
+          </div>
+          <div class="phone-bottom">
+            <button id="check-btn" class="button">Check</button>
+            <button id="clear-btn" class="button">Clear</button>
           </div>
         </div>
+      </div>
     </main>
     <script src="script.js"></script>
   </body>

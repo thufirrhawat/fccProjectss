@@ -32,6 +32,7 @@ main {
   border-radius: 30px; /* Rounded corners to mimic a phone */
   background-color: #d3d3d3; /* Light gray */
   width: 30vw;
+  min-width: 300px;
   max-width: 400px; /* Maximum width for large screens */
   height: 70vh;
   max-height: 800px; /* Maximum height for large screens */
